@@ -6,9 +6,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "export",
   basePath: isGHPages ? "/Personal-Finance" : "",
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
